@@ -1,0 +1,22 @@
+server :                          client
+                  IPC
+socket()   <---------------->     socket()
+
+   |
+   |
+   V
+
+bind()  (ip + port)
+
+   |
+   |
+   V
+
+listen()
+
+accept()     <----------------   connect()
+
+
+bind : server cha socket banaych ahe ekda banla ki listening mode
+socket bind listen zhala ki server active
+
